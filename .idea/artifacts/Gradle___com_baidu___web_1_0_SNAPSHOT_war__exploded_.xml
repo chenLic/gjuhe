@@ -1,0 +1,55 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.baidu : web-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/web/build/libs/exploded/web-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/web/build/libs/exploded/web-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="web_main/web/Web Gradle : web-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/web/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="com.baidu-controller-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="controller_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/controller/out/production/resources" />
+          </element>
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.mybatis:mybatis-spring:1.3.1" />
+          <element id="archive" name="com.baidu-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="service_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/service/out/production/resources" />
+          </element>
+          <element id="archive" name="com.baidu-repository-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="repository_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/repository/out/production/resources" />
+          </element>
+          <element id="library" level="project" name="Gradle: org.mybatis:mybatis:3.4.5" />
+          <element id="archive" name="com.baidu-domain-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="domain_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/domain/out/production/resources" />
+          </element>
+          <element id="library" level="project" name="Gradle: com.h2database:h2:1.4.196" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.0.4.RELEASE" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.45/ee64ec436a87c35362176ea300d69c912d1cbeac/mysql-connector-java-5.1.45.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/5.0.4.RELEASE/dc83e08ecdb4ab28339f87358b53d75b4a8d1b9/spring-orm-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.4.RELEASE/6b5ac0db11d81d6319ebd0bb253b2f01713df3ab/spring-jdbc-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.0.4.RELEASE/7afc193c5d2b812ee6d2ccaf6fcc81fb83bfb4a7/spring-tx-5.0.4.RELEASE.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
